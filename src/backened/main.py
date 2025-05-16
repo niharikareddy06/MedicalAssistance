@@ -12,7 +12,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-genai.configure(api_key="AIzaSyDFHrTi0n_zSmZSrou4Q897Q5Q5cmfCroY")
+genai.configure(api_key="googleapikey")
 
 @app.post("/feedback/")
 async def get_feedback(text: str = Form(...), file: Optional[UploadFile] = File(None)):
