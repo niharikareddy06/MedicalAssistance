@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #c8e6c9;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #68c36d;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-links a,button {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  border-radius: 20px;
+}
+
+.nav-links a:hover {
+  color: #2e7d32;
+  font-weight: bold;
+}
+.hero-section {
+  background-image: url('https://cdn.prod.website-files.com/66ba7aa8b4a4165b6cfbaef5/67b79cf390a3833f8deba150_AI-transforming-medicare-advantage--1440x440.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width:auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(20, 19, 19);
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 20px;
+}
+#connection,#registration {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #388e3c; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#connection,#registration:hover {
+  background-color: #2e7d32; 
+  transform: scale(1.05);
+}
